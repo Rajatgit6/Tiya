@@ -59,8 +59,15 @@
 	{% endblock main_head %}
 </head>
 
+	.main_nav {
+    height: 42px;
+    width: 100%;
+    position: fixed;
+    background-color: #00FF00;
+    z-index: 99;
+}
 <body>
-	<nav class="main_nav" id="main_nav">
+	<nav class="main_nav"  id=".main_nav">
 		<div class="container">
 			<div class="nav_links">
 				<a href="{% url 'home' %}" class="logo">JayantiMart</i></a>
